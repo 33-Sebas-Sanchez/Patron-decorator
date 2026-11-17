@@ -1,0 +1,11 @@
+public class ConLeche extends DecoradorBebida{
+    public ConLeche(Bebida bebida) {
+        super(bebida);
+    }
+    public String descripcion(){
+        return bebida.descripcion() + " + leche";
+    }
+    public double costo(){
+        return bebida.costo() + 1000;
+    }
+}
