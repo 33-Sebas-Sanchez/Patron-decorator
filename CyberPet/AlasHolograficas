@@ -8,4 +8,7 @@ public class AlasHolograficas extends MejoraDecorator{
     public double poder(){
         return mascota.poder() + 20;
     }
+    public double energia() {
+        return mascota.energia();
+    }
 }
