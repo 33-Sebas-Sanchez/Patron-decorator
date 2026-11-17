@@ -6,6 +6,9 @@ public class ArmaduraInteligente extends MejoraDecorator{
         return mascota.descripcion() + " agrega proteccion";
     }
     public double energia(){
-        return mascota.energia();
+        return mascota.energia() + 30;
+    }
+    public double poder(){
+        return mascota.poder();
     }
 }
