@@ -1,0 +1,11 @@
+public class ConCaramelo extends DecoradorBebida {
+    public ConCaramelo(Bebida bebida) {
+        super(bebida);
+    }
+    public String descripcion (){
+        return bebida.descripcion() + " + caramelo";
+    }
+    public double costo(){
+        return bebida.costo() + 1500;
+    }
+}
