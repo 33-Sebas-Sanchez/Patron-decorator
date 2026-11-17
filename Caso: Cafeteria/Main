@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[] args) {
+        Bebida pedido = new Cafe();
+
+        pedido = new ConLeche(pedido);
+        pedido = new ConCaramelo(pedido);
+
+        System.out.println(pedido.descripcion());
+        System.out.println("Total: $" + pedido.costo());
+    }
+}
