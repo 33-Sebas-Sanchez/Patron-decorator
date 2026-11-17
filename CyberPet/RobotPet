@@ -1,5 +1,4 @@
 public class RobotPet implements MascotaRobot{
-    public String nombreMascota = "Spyke";
 
     public double energia(){
         return 100;
@@ -12,6 +11,6 @@ public class RobotPet implements MascotaRobot{
         return "Mascota base";
     }
     public String mostrarCaracteristicas(){
-        return descripcion() + nombreMascota + " con energia: " + energia() + " con poder " + poder();
+        return descripcion() + " con energia: " + energia() + " con poder " + poder();
     }
 }
